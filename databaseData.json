@@ -1,0 +1,437 @@
+[
+  {
+    "id": "d7293afc-70ec-4870-b27b-4f4312fe7715",
+    "name": "Association Between the Frequent Use of Perineal Talcum Powder Products and Ovarian Cancer- a Systematic Review and Meta-analysis.pdf",
+    "type": "application/pdf",
+    "keyFeatures": [
+      [
+        {
+          "name": "conclusion",
+          "results": [
+            {
+              "item": "CONCLUSIONS:This review suggests an increased risk of ovarian cancer associated with frequent perineal powder exposure of 31–65%.",
+              "refIndex": 19,
+              "score": 0.186637969083467
+            },
+            {
+              "item": "The differences in conclusions between the metanalyses are at least partially due to the inconsistent talcum-based powder exposure questions regarding the frequency and type of expo- sure.",
+              "refIndex": 24,
+              "score": 0.26546055619755393
+            },
+            {
+              "item": "Conclusions and Implications In this analysis of pooled data from 10 case-control studies and a single cohort study, the frequent use of perineal talcum powder use is associated with increased risk of ovarian cancer.",
+              "refIndex": 138,
+              "score": 0.30690219883911574
+            },
+            {
+              "item": "All studies including retrospective case-control studies have found a positive association. 2–7 The most recent review by O’Brien 1 limited analysis to the four prospective cohort studies and in its main conclusion stated there was no statistically significant association between genital talc use and ovarian cancer.",
+              "refIndex": 23,
+              "score": 0.3622429984166986
+            },
+            {
+              "item": "However, these data were available and O’Brien provided these data for inclusion.",
+              "refIndex": 97,
+              "score": 0.6280549874624647
+            },
+            {
+              "item": "Studies were screened for inclusion using prespecified se- lection criteria by a single author (SW).",
+              "refIndex": 42,
+              "score": 0.6601851312453982
+            },
+            {
+              "item": "Review for inclusion, data extraction, and quality assessment (using the Newcastle-Ottawa Scale [NOS]) were performed independently by two reviewers.",
+              "refIndex": 9,
+              "score": 0.6917288178101697
+            },
+            {
+              "item": "However, the differences in definition and small inclusion of cornstarch likely did not affect the results as there was no evidence for statistical het- erogeneity in our study.",
+              "refIndex": 135,
+              "score": 0.7377252855743193
+            },
+            {
+              "item": "Studies were also selected for baseline quality requiring a multivariable risk adjustment, study size (n>10 cancers), and defined research methods to allow assessment of inclusion and exclusion criteria (flow diagram Fig.1).",
+              "refIndex": 44,
+              "score": 0.7484889603683231
+            },
+            {
+              "item": "Agreement for inclusion was calculated using the Cohenk with the following scale: 0.01 to 0.20 indicates slight; 0.21 to 0.40, fair; 0.41 to 0.60, moderate; 0.61 to 0.8, substantial; and 0.81 to 0.99, almost perfect.",
+              "refIndex": 47,
+              "score": 0.7618580648842497
+            },
+            {
+              "item": "After full-text review, 11 publica- tions met the inclusion criteria including a total of 6542 ovarian cancer cases and 66,876 women (Table2). 1,10–19 The interrater agreement in determining the final study cohort from the 52 full-text reviews was excellent (Cohen’sk=0.88).",
+              "refIndex": 72,
+              "score": 0.7754659611058948
+            },
+            {
+              "item": "The magnitude of the higher association in our study compared to prior case- control and cohort meta-analyses was likely due to our focus on frequent rather than any talcum powder users, inclusion of quality studies, and consistent definition of the exposure.",
+              "refIndex": 119,
+              "score": 0.7779661114191029
+            }
+          ]
+        },
+        {
+          "name": "concluded",
+          "results": [
+            {
+              "item": "The pooled odds ratio of 1.47 is higher than that of six additional systematic reviews which included case-control studies, all of which also report a statistically significant association between talc and ovarian cancer (range of adjusted odds ratios: 1.24–1.35). 2–7 O’Brien et al. 1 concluded that perineal talcum powder exposure in cohort studies was not significantly associated with ovarian cancer.",
+              "refIndex": 117,
+              "score": 0.4102041029866068
+            }
+          ]
+        },
+        {
+          "name": "subjects",
+          "results": [
+            {
+              "item": "When duplicate reports of the same subjects were published, the publication reporting the highest talc use was selected.",
+              "refIndex": 57,
+              "score": 0.195884467350599
+            }
+          ]
+        },
+        {
+          "name": "relative risk",
+          "results": [
+            {
+              "item": "The relative merits of risk ratios and odds ratios.",
+              "refIndex": 173,
+              "score": 0.10023052380778996
+            }
+          ]
+        },
+        {
+          "name": "odds ratio",
+          "results": [
+            {
+              "item": "Pooledadjustedoddsratioswith95% confidenceintervals were generated from the random effects model.",
+              "refIndex": 10,
+              "score": 0.10023052380778996
+            },
+            {
+              "item": "The relative merits of risk ratios and odds ratios.",
+              "refIndex": 173,
+              "score": 0.10023052380778996
+            },
+            {
+              "item": "The summa- ry pooled odds ratio assessing theassociation between frequent Table 1.",
+              "refIndex": 81,
+              "score": 0.13583134465871544
+            },
+            {
+              "item": "Case-control and cohort studies were included if they reported frequent perineal talcum powder use and an adjusted odds ratio or hazard ratio for ovarian cancer.",
+              "refIndex": 8,
+              "score": 0.251188643150958
+            },
+            {
+              "item": "Frequent talcum powder use was associated with an elevated risk of ovarian cancer (adjust- ed pooled summary odds ratio 1.47 (95% CI 1.31, 1.65, P<0.0001).",
+              "refIndex": 16,
+              "score": 0.251188643150958
+            },
+            {
+              "item": "Cornstarch is estimated to reflect 1–2% of powder (2) Harlow reports an adjusted odds ratio for daily talcum powder exposure, and for > 10,000 lifetime uses.",
+              "refIndex": 92,
+              "score": 0.2582260190634596
+            },
+            {
+              "item": "DISCUSSION We found frequent use of perineal talcum powder is associated with an increased risk of ovarian cancer, with a pooled adjusted odds ratio of 1.47 (95% CI 1.31, 1.65).",
+              "refIndex": 106,
+              "score": 0.2824879974915707
+            },
+            {
+              "item": "The study-specific odds ratios and 95% confidence interval are on the right side of the plot. 2530Woolen et al.: Use of Frequent Perineal Talcum Powder and Ovarian CancerJGIM  manufactured in the 1950s.",
+              "refIndex": 114,
+              "score": 0.29444216337987617
+            },
+            {
+              "item": "Extracted information included age range, enrollment period, definition of frequency of talc use, size of control group or cohort size, number of ovarian cancers, and adjusted hazard ratio and odds ratio with 95% CI.",
+              "refIndex": 55,
+              "score": 0.30690219883911574
+            },
+            {
+              "item": "Wu reported an adjusted odds ratio for women who used talcum powder > 30× per month and > 20 years (5) O’Brien did not publish on daily exposure for the National Health Study participants.",
+              "refIndex": 96,
+              "score": 0.30690219883911574
+            },
+            {
+              "item": "When limited to the case-control studies, the summary pooled odds ratio was 1.49 (P<0.0001, 95% CI 1.29, 1.72) (Supplementary Figures1and2), whereas the odds ratio for the cohort study was 1.40 (95% CI 1.17, 1.68).",
+              "refIndex": 100,
+              "score": 0.30690219883911574
+            },
+            {
+              "item": "There was no meaningful change after excluding Booth, sum- mary pooled odds ratio 1.48 (P<0.0001, 95% CI 1.31 to 1.69) (Supplementary Figure5) and the studies remained homogenous (I 2 = 24.4%,P=0.22) without publication bias (Egger’stest, P=0.88) (Supplementary Figure6).",
+              "refIndex": 103,
+              "score": 0.3265878321723358
+            },
+            {
+              "item": "When excluding Wu et al. 19 which combined perineal administration of talcum powder with other methods, the summary pooled oddsratiowas1.44(95%CI 1.29, 1.60) (Supplementary Figure3) and the studies remained homogenous (I 2 = 6.5%,P=0.382) without publication bias (Egger’stest,P=0.77) (Supplementary Figure4).",
+              "refIndex": 101,
+              "score": 0.3311311214825911
+            },
+            {
+              "item": "Studies were included if they reported primary data on frequent, defined as multiple (2 or more) times per week perineal exposure to talc, and reported an adjusted odds ratio or hazard ratio and 95% confidence interval (CI) for ovarian malignancy.",
+              "refIndex": 39,
+              "score": 0.3357376142429547
+            },
+            {
+              "item": "The second sensitivity anal- ysis was restricted to studies with a NOS of 8 or 9, removing Booth et al. 10 (NOS=4), Cook et al. 12 (NOS=7), and Whittemore et al. 18 (NOS=7), also without a statistically significant change in the summary pooled odds ratio of 1.48 (P<0.0001, 95% CI 1.27 to 1.72) (Supplementary Figure7).",
+              "refIndex": 104,
+              "score": 0.39355007545577747
+            },
+            {
+              "item": "The pooled odds ratio of 1.47 is higher than that of six additional systematic reviews which included case-control studies, all of which also report a statistically significant association between talc and ovarian cancer (range of adjusted odds ratios: 1.24–1.35). 2–7 O’Brien et al. 1 concluded that perineal talcum powder exposure in cohort studies was not significantly associated with ovarian cancer.",
+              "refIndex": 117,
+              "score": 0.4102041029866068
+            },
+            {
+              "item": "Adjusted odds ratios and the adjusted hazard ratio were combined given the infrequency of ovarian cancer. 9 As a sensitivity analysis, we removed the one cohort study from the analysis and a study that combined non- perineal talcum powder users with perineal talcum powder users. 2527Woolen et al.: Use of Frequent Perineal Talcum Powder and Ovarian CancerJGIM  Heterogeneity was evaluated by inspecting funnel plots, and by calculating theI 2 values.",
+              "refIndex": 65,
+              "score": 0.436515832240166
+            }
+          ]
+        },
+        {
+          "name": "length of follow",
+          "results": []
+        }
+      ]
+    ]
+  },
+  {
+    "id": "f3f0fecf-14dc-42af-a201-753c75c40451",
+    "name": "Risk factors for ovarian cancer.pdf",
+    "type": "application/pdf",
+    "keyFeatures": [
+      [
+        {
+          "name": "conclusion",
+          "results": [
+            {
+              "item": "Results from other studies regarding theriskfor women havinga first childat relatively olderagesare inconclusive, some finding no association (Newhouseet al., 1977; Casagrandeet al.,1979; Crameret al., 1983;Lesheret al.,1985), othersan increasedrisk (Joly et al.,1974; McGowanet al., 1979; Hildrethet al.,1981; Franceschiet al., 1982).",
+              "refIndex": 153,
+              "score": 0.7729738455277437
+            }
+          ]
+        },
+        {
+          "name": "concluded",
+          "results": [
+            {
+              "item": "Weconclude that itis not possible todetermine fromthese datawhether itisthe above factors which inhibit ovulationthat prevent ovarian cancer, whether repeated ovulations promote it, orwhether a combina- tion ofboth is acting.",
+              "refIndex": 182,
+              "score": 0.6645243407115282
+            }
+          ]
+        },
+        {
+          "name": "subjects",
+          "results": [
+            {
+              "item": "Subjects andmethods BetweenOctober 1978and February 1983fiveinterviewers identified and questioned women witha diagnosis ofovarian cancer and women selected as controls at13 hospitals in London and twoin Oxford.",
+              "refIndex": 15,
+              "score": 0.2582260190634596
+            }
+          ]
+        },
+        {
+          "name": "relative risk",
+          "results": [
+            {
+              "item": "Therelative riskshave not,therefore,beenstratifiedbyplace ofinterview.",
+              "refIndex": 49,
+              "score": 0.03162277660168379
+            },
+            {
+              "item": "Table IIshowsthe relative risksforovariancancerassociated with variousaspectsof pregnancyhistory.",
+              "refIndex": 55,
+              "score": 0.07345138681571149
+            },
+            {
+              "item": "Table VI showsdetailed analyses oftherelativerisksassociatedwithoral  594 M.",
+              "refIndex": 82,
+              "score": 0.07345138681571149
+            },
+            {
+              "item": "Relative risks adjusted for age and socialclass.aReference category.",
+              "refIndex": 136,
+              "score": 0.08669618757582168
+            },
+            {
+              "item": "Relative risks adjusted for age, social class anddurationofunprotected intercourse. aReference category.",
+              "refIndex": 88,
+              "score": 0.12416523075924112
+            },
+            {
+              "item": "Table VII shows therelative risksassociated with age at menarcheand age atnatural menopause.",
+              "refIndex": 101,
+              "score": 0.13583134465871544
+            },
+            {
+              "item": "Other relative risk adjustments andtestsfortrend have been made with the exposures as continuousvariables.",
+              "refIndex": 45,
+              "score": 0.14757065332758942
+            },
+            {
+              "item": "The relative riskswereelevated bothinnulligravid womenwhohadbeen sexually activeand inthose whohad not,althoughsignificantly so only forthe sexually active.",
+              "refIndex": 57,
+              "score": 0.1682674061070467
+            },
+            {
+              "item": "Similarly,among parous women, the higher the parity the lowertherelative risks (X2 (trend) = 3.9, P <0.05).",
+              "refIndex": 59,
+              "score": 0.17782794100389226
+            },
+            {
+              "item": "Among those whohadeverbeen pregnant, the relativerisks decreased asthenumber of pregnancies increased, (X2 (trend) = 4.3, P <0.05).",
+              "refIndex": 58,
+              "score": 0.186637969083467
+            },
+            {
+              "item": "Since subfertilitymightbearisk factorfor ovarian cancer, the relativerisks associatedwith age atfirst pregnancy werealso adjusted for durationof unprotected intercourse.",
+              "refIndex": 151,
+              "score": 0.186637969083467
+            },
+            {
+              "item": "Forthese reasons, thedatawere analysed using an unmatched approach with adjustments being made to relative riskestimatesfor age and socio-economic status.",
+              "refIndex": 37,
+              "score": 0.20558905959841417
+            },
+            {
+              "item": "All relativeriskshave been adjustedforage in5-yearstrata (20-24,25-29, . .. 60-64) andforsocial class insix categories (1,II,JII non-manual, III manual, IV andV).",
+              "refIndex": 42,
+              "score": 0.20558905959841417
+            },
+            {
+              "item": "Data missing for I control. cRelative risks adjusted for parity. dData missing for2casesand 1 control. eWomen with livebirths only.",
+              "refIndex": 78,
+              "score": 0.20558905959841417
+            },
+            {
+              "item": "Relative risks adjusted for age, social class, gravidity and duration of unprotected intercourse.aReference category. bRelative risks adjusted for gravidity.",
+              "refIndex": 108,
+              "score": 0.20558905959841417
+            },
+            {
+              "item": "Relative risks adjusted for ageand social class.aReference category. bTime when sexually active and at risk of pregnancy but using nocontraception.",
+              "refIndex": 85,
+              "score": 0.2128139045982712
+            },
+            {
+              "item": "Maximum likelihood estimatesof relativerisk(RR) together with their95% confidence interval(95%CI)and testsfor trend where appropriatewere computedbymultiple logistic regression techniques(Breslow& Day,1980)using theGLIM statistical package(Baker& Nelder,1978).",
+              "refIndex": 41,
+              "score": 0.22961486481123622
+            },
+            {
+              "item": "Relative risks adjusted for age, social class,gravidity and duration of unprotected intercourse. aReference category. bUse of spermicides, rhythm orcoitus interruptus. contraceptive use.",
+              "refIndex": 94,
+              "score": 0.22961486481123622
+            },
+            {
+              "item": "There wasanexcess of casesinsocial classesI,II, and IIInon-manual (58%) as compared to controls (43%)(P = 0.05)and, becauseof this, allrelative riskshave beenadjusted for socialclassaswellas age.",
+              "refIndex": 54,
+              "score": 0.2360478233180577
+            },
+            {
+              "item": "After adjusting for parity, the relative risksassociated withsuccessive numbers of incomplete pregnancies(spontaneous andinduced abortions) alsodecreased although thetrendwasnot statistically significant (X2 (trend) = 0.5).",
+              "refIndex": 60,
+              "score": 0.2360478233180577
+            },
+            {
+              "item": "Relative risks adjusted fornumberoflive births. contraception(X2 (trend) = 1.2)althoughsexually activenulli- gravid womenwhohadneverused any method of contraception hadabouttwicetheriskofovariancancer compared toall other sexually activewomen (TableIV).",
+              "refIndex": 79,
+              "score": 0.2360478233180577
+            },
+            {
+              "item": "RISK FACTORS FOR OVARIAN CANCER 595 Table VII Relative risks for ovarian cancer associated with age at menarche andage at natural menopause Cases Controls RR(95% CI) Ageat menarche (years)b >14 97 197 l.",
+              "refIndex": 109,
+              "score": 0.3006076302628231
+            },
+            {
+              "item": "Oa Reported unilateral 5 90.9 (0.4-2.1) oophorectomy by no hysterectomy Reported hysterectomy 8 620.2(0.1-0.4) but conserved ovaries Reported hysterectomy 210 0.4(0.1 -1.1) and unilateral oophorectomy Relative risks adjusted for age andsocial class. aReference category.",
+              "refIndex": 132,
+              "score": 0.30690219883911574
+            },
+            {
+              "item": "Although therelative risk of2.0 associated with weekly use was statisticallysignificant Table VIII Relative risks forovarian cancer associated with reported history of hysterectomy and/or unilateral oophorectomy CasesControls RR (95% CI) Reported womb intact 220 370 1.",
+              "refIndex": 131,
+              "score": 0.31117163371060175
+            },
+            {
+              "item": "Table VRelative risks forovarian cancer associated withtheuse of different methods of contraception Method of contraception Cases Controls RR (95% CI) Sheath Never used 108 205 l.0a Ever used 105 215 1.1 (0.8-1.7) Diaphragm Never used 178 329 1.",
+              "refIndex": 89,
+              "score": 0.3265878321723358
+            },
+            {
+              "item": "Results from other studies regarding theriskfor women havinga first childat relatively olderagesare inconclusive, some finding no association (Newhouseet al., 1977; Casagrandeet al.,1979; Crameret al., 1983;Lesheret al.,1985), othersan increasedrisk (Joly et al.,1974; McGowanet al., 1979; Hildrethet al.,1981; Franceschiet al., 1982).",
+              "refIndex": 153,
+              "score": 0.3311311214825911
+            },
+            {
+              "item": "The reproductive and related factorsfound tobe statistically significantly related toovarian cancerrisk (gravidity, duration ofunprotected intercourse, use oforalcontraception, having been sterilised,age at natural menopause and having had a hysterectomy) are not independent andwealso computed the relative risks associated witheachfactor after adjusting forthe others(Table XI).",
+              "refIndex": 123,
+              "score": 0.3499451670283573
+            },
+            {
+              "item": "Table VI Relative risksfor ovarian cancer associated withoral contraceptive (OC) use Cases Controls RR (95% CI) Duration ofOC use (years) Never used <5 5-10 >10 Age at firstOCuse (years) Never used <25 25-29 30-34 B 35 Timesince discontinuing OCuse (years) Never used Current users <5 5-10 >10 > I 0~~ 178 306 l.",
+              "refIndex": 106,
+              "score": 0.3881503659906482
+            },
+            {
+              "item": "Table X Relativerisks forovariancancerassociatedwiththeuse of hormone replacementtherapy formenopausal symptoms Cases Controls RR(95% CI) All post-menopausal women Useofhormone replacement therapy No122249 1.oa Yes 3444 1.5 (0.9-2.6) Womenreporting hysterectomy Useofhormone replacement therapy No 5 62 1.0a Yes51010.9 (1.7-69.0) Post-menopausal womenotherthan those reporting hysterectomy Useofhormone replacement therapy No 177 1871.oa Yes 29 34 1.2(0.7 -2.3) Post-menopausal women only.",
+              "refIndex": 135,
+              "score": 0.39355007545577747
+            },
+            {
+              "item": "Oa 12-13 89 185 0.9 (0.6- 1.3) < 12 46 66 1.3 (0.8-2.1) X2fortrend = 0.03 Age atnatural menopause (years)c < 45 10 34 1.oa 45-49 47 77 2.0(0.9-4.7) >50 8499 2.5(1.1-5.8) X2 for trend =7.1 P <0.01 Relativerisks adjusted for age and social class.aReferencecategory. bData onage atmenarche missing for3cases and 3controls. cDataon age at menopause missing for 2 cases and 1control.",
+              "refIndex": 110,
+              "score": 0.4159106104940221
+            },
+            {
+              "item": "Table III Relative risks for ovarian cancer associated with duration of unprotected intercourse bygravidity Cases Controls RR (95% CI) Nulligravid women Duration ofun- protected intercourse (months)b <,3 4-60 12 261.oa (0.4-6.5) 61-120 4 6 1.5 (0.1-7.8) > 120 1 4 0.7 (2.1-20.4) 20 8 6.5 X2 fortrend =11.2P<0.001 Gravidwomen Duration ofun- protected intercourse (months)b <,3 4-60 78 176 1.1 (0.5-2.4) 61-120 51 113 1.1 (0.5-2.6) > 120 10 27 1.1 (0.4-3.2) 37 60 1.6(0.7-4.0) X2 for trend = 2.6 Sexuallyactive women only.",
+              "refIndex": 84,
+              "score": 0.4677351412871982
+            },
+            {
+              "item": "Table IVRelative risksfor ovarian cancer associated with duration of useofcontraception bygravidity Cases Controls RR (95% CI) Nulligravid women Duration ofuse of con- traception Never used 15 < 10years 14 10-20 years 6 > 20 years 2 X2 fortrend = 0.9 Gravid women Duration ofuseof con- traception Neverused 32 < 10years 25 10-20years 55 > 20 years 64 x2 fortrend = 0.3 10 21 9 4 47 56 147 126 1.0\" 0.5 0.5 0.4 0.4 0.3 0.4 0.5 (0.1 -1.7) (0.1-2.5) (0.1-3.2) (0.2-1.1) (0.",
+              "refIndex": 86,
+              "score": 0.4677351412871982
+            },
+            {
+              "item": "Table XII Relativerisks forovarian cancer associatedwithreported frequency oftalc use in the genitalarea Cases Controls RR (95% CI) Reported frequency of talcuseb Never 76 1781.oa Rarely 6 160.9 (0.3-2.4) Monthly 724 0.7 (0.3-1.8) Weekly 57 77 2.0(1.3 -3.4) Daily 71 139 1.3(0.8- 1.9) X2 for trend = 3.80, P = 0.05 Relativerisks adjusted for age andsocialclass. aReference category. bData missing for 18 (8%) casesand 17 (4%) controlsas questions on talcuseintroducedthreemonths after studybegan. (P = 0.007), therewas no consistent trend of increasingrisk with increasing frequency oftalc use (X2(trend)= 3.80, P= 0.05).",
+              "refIndex": 138,
+              "score": 0.48083934844972853
+            },
+            {
+              "item": "Therewasno significant trend inrisk associated withtheduration ofuseof any Table I Age distributionand averageage ofcasesandcontrols Age(years) Cases (%) Controls (%) 20-34 13 (5.5) 33 (7.3) 35-44 27 (11.5) 75 (16.6) 45-54 87 (37.0) 156 (34.6) 55-64 108 (46.0) 187 (41.5) Total 235 451 Averageage (years) 52.4 51.4 TableIIRelativerisksforovariancancerassociated with pregnancy history Variable CasesControlsRR (95% CI) Gravidityb Gravid Nulligravid Nulligravid andever sexually active Nulligravid andnever sexually active Numberof pregnancies 0 2 3 4 Estimated reduction in relative associated witheach pregnancq Parityb 0 2 3 4 Estimated reduction inrelativerisk associated witheach birth No.of incomplete preg- nanciesb.c 0 2 176376 1.",
+              "refIndex": 74,
+              "score": 0.49431068698683545
+            },
+            {
+              "item": "Table XI Relativerisks associated with thefactorsfoundtobe significantly relatedtoovariancancer Factor RR (950% CI) X2testfortrend (1d.f.) Graviditybc 0 1.0a 10.8 (0.4 -1.5) 2 0.8(0.4 -1.4) 30.6(0.3 -1.1) 4 0.4(0.2 -1.0) , 5 0.5(0.2 -1.0)6.5 P<0.05 Unprotected intercourse (months)b <3 1.0a 4- 60 1.3(0.8 -2.0) 61-1201.1 (0.5 -2.5) > 1201.9 (1.2 -3.2)7.8P <0.05 Oral contraceptive useb Never used 1.oa < Syears 0.6 (0.3 -1.1) 6-10 years 0.6 (0.3 -1.4) > 10 years0.1 (0.02 -1.1)4.6 P < 0.05 Eversterilizedb0.2 (0.05 -0.6)* Age atnatural menopaused < 45 years 1.oa 45-49 years 1.9 (0.8 -4.5) 8.2 P<0.01 50 years 2.6 (1.1 -6.1) Ever reported 0.2 (0.1 -0.5)* hysterectomyb Therelativerisks associated witheachfactor have beenadjustedfor age, socialclassandall the otherfactors in the table.aReference category.bSexually active women only. cRelativerisksnot adjusted for sterilization, seetextfor details. dWomen reporting natural menopause only. *P < 0.001.",
+              "refIndex": 137,
+              "score": 0.5482769649208538
+            },
+            {
+              "item": "Oa 48 840.7 (0.4- 61 127 0.6 (0.4- 4088 0.6 (0.3- 1230 0.5 (0.2- 8 340.3 (0.1- x2 fortrend=3.9 P<0.05 (parous women only) 1.2) 1.0) -1.0) 1.0) -0.7) 0.84 (0.75-0.94) 185 330 39 83 718 419 X2 Estimated reduction inrelative riskassociated witheach incompletepregnancy Age at first pregnancy (years)d 15- 19 20 -24 25-29 30-34 35 Nulligravid Monthsoflactatione None < 6 7-12 13-18 19-24 ,25 26 73 49 17 9 59 x2 fortrend= l .02 0.9 0.7 0.6 = 0.5 (0.6- (0.3- (0.2- -1.4) -1.8) -1.7) 0.92 (0.75- 1.13) 65 1.02 182 0.9(0.5- 1.5) 96 1.2 (0.7-2.2) 291.2 (0.8-2.7) 44.1(1.1 -15.1) 742.0 (1.1 -3.7) 1.0 (gravid women only) 44 107 1.0o 66 124 1.3 29800.9 1329 1.2 5 72.1 1215 3.4 x2 fortrend= 1.8 (0.8- (0.5- (0.5- (0.7- (1.1 -2.2) -1.6) -2.5) -6.7) -10.8) Allrelativerisks adjusted for age andsocialclass.'Reference b category.",
+              "refIndex": 77,
+              "score": 0.5559042572704036
+            },
+            {
+              "item": "Table IX Relative risksforovarian cancerassociated withduration ofovulation Relative risks Relative risks adjusted for age, adjustedfor age, socialclass, Relative risks socialclass andduration of Duration of adjusted for age duration of anovulation and age ovulation (years) Cases Controls andsocial class anovulation at menopause Allwomenb < 30 59 163 1.0a 30-34 73 106 2.0 35-39 68 92 2.0 >40 19 13 4.3 X2for trend = 17.8 P<0.001 Post-menopausal women < 30 1453 1.0 1.0a 1.0\" 30-34 54 81 2.4 2.1 0.9 35 -39 58 72 2.4 1.9 0.6 >40 14 10 5.0 4.0 0.7 X2 for trend = 12.3 P <0.001 7.7P<0.01 0.5 Premenopausal women < 30 45 110 1.0a 1.0a 30-34 1925 1.5 1.1 35-39 10 20 1.3 0.9 > 40 5 3 3.2 1.9 X2 fortrend = 4.4P<0.05 0.6 Women reporting a hysterectomy excluded: aReference category. bData missing for 6cases and 4 controls. cTotal monthsof pregnancy and oral contraceptive use.  596 M.",
+              "refIndex": 133,
+              "score": 0.571478636671867
+            }
+          ]
+        },
+        {
+          "name": "odds ratio",
+          "results": []
+        },
+        {
+          "name": "length of follow",
+          "results": []
+        }
+      ]
+    ]
+  }
+]
