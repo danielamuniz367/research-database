@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
-import { MRT_ColumnDef } from "material-react-table"; // If using TypeScript (optional, but recommended)
+import { MRT_ColumnDef } from "material-react-table";
+import dbData from "../../databaseData.json";
 
 // example data from docs
 
@@ -10,33 +11,58 @@ interface Person {
   age: number;
 }
 
+interface KeyFeatureResult {
+  item: string | undefined;
+  refIndex: number;
+  score: number;
+}
+
+interface KeyFeature {
+  name: string;
+  results: KeyFeatureResult[] | undefined;
+}
+
+interface ResearchData {
+  id: string;
+  name: string;
+  keyFeatures: KeyFeature[];
+}
+
 //mock data - strongly typed if you are using TypeScript (optional, but recommended)
-const data: Person[] = [
-  {
-    name: "John",
-    age: 30,
-  },
-  {
-    name: "Sara",
-    age: 25,
-  },
-];
+const data: ResearchData[] = dbData;
 
 export default function DataTable() {
-  //column definitions - strongly typed if you are using TypeScript (optional, but recommended)
-  const columns = useMemo<MRT_ColumnDef<Person>[]>(
+  const { keyFeatures } = data[0];
+
+  function generateColumns(_data: KeyFeature[]) {
+    let newCols: MRT_ColumnDef<ResearchData>[] = [];
+    _data.map((kf, i) => {
+      let newCol: any = {
+        id: kf.name,
+        header: kf.name,
+        accessorFn: (originalRow: any) =>
+          originalRow.keyFeatures[i].results.map((r: KeyFeatureResult) => {
+            return r.item;
+          }),
+      };
+      newCols.push(newCol);
+    });
+    return newCols;
+  }
+  const nestedDataCols: MRT_ColumnDef<ResearchData>[] =
+    generateColumns(keyFeatures);
+
+  const columns = useMemo<MRT_ColumnDef<ResearchData>[]>(
     () => [
       {
-        accessorKey: "name", //simple recommended way to define a column
-        header: "Name",
-        muiTableHeadCellProps: { sx: { color: "green" } }, //custom props
+        accessorKey: "id",
+        header: "ID",
       },
       {
-        accessorFn: (originalRow) => originalRow.age, //alternate way
-        id: "age", //id required if you use accessorFn instead of accessorKey
-        header: "Age",
-        Header: <i style={{ color: "red" }}>Age</i>, //optional custom markup
+        accessorKey: "name",
+        header: "Name",
       },
+      ...nestedDataCols,
     ],
     []
   );
