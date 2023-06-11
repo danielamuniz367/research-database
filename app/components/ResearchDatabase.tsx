@@ -1,17 +1,99 @@
 import Box from "@mui/material/Box";
+import DataTable from "../table/components/DataTable";
+import resData from "../../results.json";
 import Header from "./Header";
-import UploadButton from "./UploadButton";
-import DataTable from "./DataTable";
 import { Stack } from "@mui/material";
+import KeyFeaturesPortal from "./KeyFeaturesPortal";
+import { useEffect, useState } from "react";
+import fuzzySearch from "../utils/fuzzySearch";
+import Fuse from "fuse.js";
 
-export default function ResearchDatabase() {
+export interface KeyFeatureResult {
+  item: string | undefined;
+  refIndex: number;
+  score: number;
+}
+
+export interface KeyFeature {
+  name: string;
+  results: KeyFeatureResult[] | undefined;
+}
+
+export interface ResearchData {
+  id: string;
+  file_name: string;
+  keyFeatures: KeyFeature[];
+}
+export interface ResearchDatabaseData {
+  keyFeaturesList: string[];
+  researchData: ResearchData[];
+}
+
+export interface DatabaseItem {
+  id: string;
+  name: string;
+  type: string;
+  text: string;
+}
+
+export interface Database {
+  database: DatabaseItem[];
+}
+
+export default function ResearchDatabase({ database }: any) {
+  // const { keyFeaturesList, researchData } = resData;
+  const [keyFeatures, setKeyFeatures] = useState<
+    ResearchDatabaseData["keyFeaturesList"]
+  >([]);
+  const [tableData, setTableData] = useState<
+    ResearchDatabaseData["researchData"]
+  >([]);
+
+  useEffect(() => {
+    if (keyFeatures.length > 0) {
+      let searchResults = handleKeyFeaturesSearch(keyFeatures, database);
+      setTableData(searchResults);
+    }
+  }, [keyFeatures]);
+
+  useEffect(() => {
+    console.log(tableData);
+  }, [tableData]);
+
+  function handleKeyFeaturesSearch(
+    keyFeatures: ResearchDatabaseData["keyFeaturesList"],
+    database: any
+  ) {
+    let results = database.map((entry: any) =>
+      keyFeatures.map((kf) => {
+        return {
+          name: kf,
+          results: fuzzySearch(kf, entry.text),
+        };
+      })
+    );
+    return results;
+  }
+
+  function handleAddKeyFeature(newKeyFeature: string) {
+    setKeyFeatures([...keyFeatures, newKeyFeature]);
+  }
+
+  function handleDeleteKeyFeature(deletedKeyFeature: string) {
+    setKeyFeatures(keyFeatures.filter((kf) => kf !== deletedKeyFeature));
+  }
+
   return (
-    <Box>
-      <Stack direction="row" justifyContent="space-between">
-        <Header />
-        <UploadButton />
+    <Box p="5rem">
+      <Stack direction="row" gap="1rem" alignItems="center" p={1}>
+        <Header variant="h4" title="Research Table" />
+        <KeyFeaturesPortal
+          keyFeatures={keyFeatures}
+          onAdd={handleAddKeyFeature}
+          onDelete={handleDeleteKeyFeature}
+        />
       </Stack>
-      <DataTable />
+      <DataTable keyFeaturesList={keyFeatures} researchData={tableData} />
     </Box>
   );
 }
