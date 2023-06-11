@@ -1,12 +1,10 @@
 import Box from "@mui/material/Box";
 import DataTable from "../table/components/DataTable";
-import resData from "../../results.json";
 import Header from "./Header";
 import { Stack } from "@mui/material";
 import KeyFeaturesPortal from "./KeyFeaturesPortal";
 import { useEffect, useState } from "react";
 import fuzzySearch from "../utils/fuzzySearch";
-import Fuse from "fuse.js";
 
 export interface KeyFeatureResult {
   item: string | undefined;
@@ -56,22 +54,26 @@ export default function ResearchDatabase({ database }: any) {
     }
   }, [keyFeatures]);
 
-  useEffect(() => {
-    console.log(tableData);
-  }, [tableData]);
+  // useEffect(() => {
+  //   console.log(tableData);
+  // }, [tableData]);
 
   function handleKeyFeaturesSearch(
     keyFeatures: ResearchDatabaseData["keyFeaturesList"],
     database: any
   ) {
-    let results = database.map((entry: any) =>
-      keyFeatures.map((kf) => {
-        return {
-          name: kf,
-          results: fuzzySearch(kf, entry.text),
-        };
-      })
-    );
+    let results = database.map((entry: any) => {
+      return {
+        id: entry.id,
+        file_name: entry.name,
+        results: keyFeatures.map((kf) => {
+          return {
+            name: kf,
+            results: fuzzySearch(kf, entry.text),
+          };
+        }),
+      };
+    });
     return results;
   }
 

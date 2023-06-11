@@ -24,6 +24,11 @@ export default function KeyFeaturesModal({
     console.log(onAdd);
   }, []);
 
+  function handleClick() {
+    onAdd(keyFeature);
+    setKeyFeature("");
+  }
+
   return (
     <Box>
       <Stack direction="row">
@@ -34,9 +39,10 @@ export default function KeyFeaturesModal({
         <TextField
           label="Enter key feature"
           variant="outlined"
+          value={keyFeature}
           onChange={(e) => setKeyFeature(e.target.value)}
         />
-        <Button onClick={() => onAdd(keyFeature)}>Add</Button>
+        <Button onClick={handleClick}>Add</Button>
       </Stack>
       <List>
         {keyFeatures.map((kf: string, i: number) => (

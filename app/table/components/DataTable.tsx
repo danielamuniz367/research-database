@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { MRT_ColumnDef } from "material-react-table";
 
@@ -29,14 +29,17 @@ export default function DataTable({
   keyFeaturesList,
   researchData,
 }: ResearchDatabase) {
+  const [keyFeaturesCols, setKeyFeaturesCols] = useState<
+    MRT_ColumnDef<ResearchData>[]
+  >([]);
+
   function generateColumns(_keyFeatures: string[]) {
     let newCols: MRT_ColumnDef<ResearchData>[] = [];
     _keyFeatures.map((_keyFeature, i) => {
       let newCol: MRT_ColumnDef<ResearchData> = {
-        id: _keyFeature,
         header: _keyFeature,
         accessorFn: (originalRow: any) =>
-          originalRow.keyFeatures[i].results.map((r: KeyFeatureResult) => {
+          originalRow.results[i]?.results.map((r: KeyFeatureResult) => {
             return r.item;
           }),
       };
@@ -59,7 +62,7 @@ export default function DataTable({
       },
       ...nestedDataCols,
     ],
-    []
+    [keyFeaturesList]
   );
 
   return (
@@ -69,6 +72,19 @@ export default function DataTable({
       enableRowSelection //enable some features
       enableColumnOrdering
       enableGlobalFilter={false} //turn off a feature
+      enableDensityToggle={true}
+      initialState={{ density: "compact" }}
+      defaultColumn={{
+        maxSize: 200,
+        minSize: 80,
+        size: 150, //default size is usually 180
+      }}
+      enableColumnResizing={false}
+      muiTableBodyCellProps={({ cell }) => ({
+        onDoubleClick: (event) => {
+          console.info(event, cell.id);
+        },
+      })}
     />
   );
 }
