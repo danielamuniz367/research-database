@@ -1,6 +1,38 @@
 ## Research Database
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#### This is a Next.js project that uses Typescript, Material UI, Material React Table and Fuse.js for fuzzy search functionalites.
+##### Database (database.json) was put together with Node.js using pdfParse and express-fileupload:
+```
+server.post("/extract-text", (req, res) => {
+      // if no req file and no pdfFile
+      if (!req.files && !req.files.pdfFile) {
+        req.status(400);
+        req.end();
+      }
+
+      pdfParse(req.files.pdfFile).then((result) => {
+        res.send(result.text);
+      });
+    });
+
+  fetch("/extract-text", {
+      method: "post",
+      body: formData,
+    })
+      .then((res) => {
+        return res.text();
+      })
+      .then((extractedText) => {
+        let newObj = {
+          id: uuidv4(),
+          name: inpFile?.current?.files[0].name,
+          type: inpFile?.current?.files[0].type,
+          text: extractedText,
+        };
+        console.log(newObj);
+      });
+```
+####
 
 ## Getting Started
 
