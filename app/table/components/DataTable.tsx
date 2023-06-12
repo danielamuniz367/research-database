@@ -2,7 +2,6 @@ import React, { useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { MRT_ColumnDef } from "material-react-table";
 import {
-  KeyFeature,
   KeyFeatureResult,
   ResearchData,
   ResearchDatabaseData,
