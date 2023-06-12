@@ -69,10 +69,6 @@ export default function DataTable({
       enableGlobalFilter={false} //turn off a feature
       enableDensityToggle={true}
       initialState={{ density: "compact" }}
-      defaultColumn={{
-        minSize: 30,
-        size: 30, //default size is usually 180
-      }}
       enableColumnResizing
       muiTableBodyCellProps={({ cell }) => ({
         onDoubleClick: (event) => {

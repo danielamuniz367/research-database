@@ -54,10 +54,6 @@ export default function ResearchDatabase({ database }: any) {
     }
   }, [keyFeatures]);
 
-  // useEffect(() => {
-  //   console.log(tableData);
-  // }, [tableData]);
-
   function handleKeyFeaturesSearch(
     keyFeatures: ResearchDatabaseData["keyFeaturesList"],
     database: any
@@ -78,7 +74,7 @@ export default function ResearchDatabase({ database }: any) {
   }
 
   function handleAddKeyFeature(newKeyFeature: string) {
-    setKeyFeatures([...keyFeatures, newKeyFeature]);
+    if (newKeyFeature) setKeyFeatures([...keyFeatures, newKeyFeature]);
   }
 
   function handleDeleteKeyFeature(deletedKeyFeature: string) {

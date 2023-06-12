@@ -21,10 +21,6 @@ export default function KeyFeaturesModal({
 }: any) {
   const [keyFeature, setKeyFeature] = useState<string | undefined>();
 
-  useEffect(() => {
-    console.log(onAdd);
-  }, []);
-
   function handleClick() {
     onAdd(keyFeature);
     setKeyFeature("");
