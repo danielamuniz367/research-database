@@ -53,10 +53,6 @@ export default function DataTable({
   const columns = useMemo<MRT_ColumnDef<ResearchData>[]>(
     () => [
       {
-        accessorKey: "id",
-        header: "ID",
-      },
-      {
         accessorKey: "file_name",
         header: "File Name",
       },
@@ -69,22 +65,21 @@ export default function DataTable({
     <MaterialReactTable
       columns={columns}
       data={researchData}
-      enableRowSelection //enable some features
       enableColumnOrdering
       enableGlobalFilter={false} //turn off a feature
       enableDensityToggle={true}
       initialState={{ density: "compact" }}
       defaultColumn={{
-        maxSize: 200,
-        minSize: 80,
-        size: 150, //default size is usually 180
+        minSize: 30,
+        size: 30, //default size is usually 180
       }}
-      enableColumnResizing={false}
+      enableColumnResizing
       muiTableBodyCellProps={({ cell }) => ({
         onDoubleClick: (event) => {
           console.info(event, cell.id);
         },
       })}
+      enableSubRowSelection={false}
     />
   );
 }

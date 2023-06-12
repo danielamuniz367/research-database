@@ -15,10 +15,6 @@ export default function KeyFeaturesPortal({
 }: KeyFeaturesPortalProps) {
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(() => {
-    console.log(onAdd);
-  }, []);
-
   return (
     <>
       <Button variant="outlined" onClick={() => setShowModal(true)}>
