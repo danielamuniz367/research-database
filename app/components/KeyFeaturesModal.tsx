@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import Header from "./Header";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import styles from "../page.module.css";
 import HighlightOffRoundedIcon from "@mui/icons-material/HighlightOffRounded";
 import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";

@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { createPortal } from "react-dom";
 import KeyFeaturesModal from "./KeyFeaturesModal";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export interface KeyFeaturesPortalProps {
   keyFeatures: string[];

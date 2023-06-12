@@ -1,38 +1,17 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useMemo } from "react";
 import { MaterialReactTable } from "material-react-table";
 import { MRT_ColumnDef } from "material-react-table";
-
-//If using TypeScript, define the shape of your data (optional, but recommended)
-interface KeyFeatureResult {
-  item: string | undefined;
-  refIndex: number;
-  score: number;
-}
-
-interface KeyFeature {
-  name: string;
-  results: KeyFeatureResult[] | undefined;
-}
-
-interface ResearchData {
-  id: string;
-  file_name: string;
-  keyFeatures: KeyFeature[];
-}
-
-interface ResearchDatabase {
-  keyFeaturesList: string[];
-  researchData: ResearchData[];
-}
+import {
+  KeyFeature,
+  KeyFeatureResult,
+  ResearchData,
+  ResearchDatabaseData,
+} from "@/app/components/ResearchDatabase";
 
 export default function DataTable({
   keyFeaturesList,
   researchData,
-}: ResearchDatabase) {
-  const [keyFeaturesCols, setKeyFeaturesCols] = useState<
-    MRT_ColumnDef<ResearchData>[]
-  >([]);
-
+}: ResearchDatabaseData) {
   function generateColumns(_keyFeatures: string[]) {
     let newCols: MRT_ColumnDef<ResearchData>[] = [];
     _keyFeatures.map((_keyFeature, i) => {
@@ -66,7 +45,7 @@ export default function DataTable({
       columns={columns}
       data={researchData}
       enableColumnOrdering
-      enableGlobalFilter={false} //turn off a feature
+      enableGlobalFilter={false}
       enableDensityToggle={true}
       initialState={{ density: "compact" }}
       enableColumnResizing

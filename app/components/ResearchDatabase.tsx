@@ -34,10 +34,6 @@ export interface DatabaseItem {
   text: string;
 }
 
-export interface Database {
-  database: DatabaseItem[];
-}
-
 export default function ResearchDatabase({ database }: any) {
   // const { keyFeaturesList, researchData } = resData;
   const [keyFeatures, setKeyFeatures] = useState<
