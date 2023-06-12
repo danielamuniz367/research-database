@@ -36,14 +36,16 @@ export default function KeyFeaturesModal({
             <HighlightOffRoundedIcon />
           </Button>
         </Stack>
-        <Stack direction="row">
+        <Stack direction="row" gap={1}>
           <TextField
             label="Enter key feature"
             variant="outlined"
             value={keyFeature}
             onChange={(e) => setKeyFeature(e.target.value)}
           />
-          <Button onClick={handleClick}>Add</Button>
+          <Button variant="outlined" onClick={handleClick}>
+            Add
+          </Button>
         </Stack>
         <List>
           {keyFeatures.map((kf: string, i: number) => (
