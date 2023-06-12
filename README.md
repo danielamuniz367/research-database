@@ -1,7 +1,7 @@
 ## Research Database
 
-### This is Next.js project that uses Typescript, Material UI, Material React Table and Fuse.js for fuzzy search functionalites.
-#### Database (database.json) was put together with Node.js using pdfParse and express-fileupload:
+#### This is a Next.js project that uses Typescript, Material UI, Material React Table and Fuse.js for fuzzy search functionalites.
+##### Database (database.json) was put together with Node.js using pdfParse and express-fileupload:
 ```
 server.post("/extract-text", (req, res) => {
       // if no req file and no pdfFile
@@ -32,6 +32,7 @@ server.post("/extract-text", (req, res) => {
         console.log(newObj);
       });
 ```
+####
 
 ## Getting Started
 
