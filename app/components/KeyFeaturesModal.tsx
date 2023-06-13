@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Box,
   Button,
@@ -13,16 +15,30 @@ import styles from "../page.module.css";
 import HighlightOffRoundedIcon from "@mui/icons-material/HighlightOffRounded";
 import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";
 
+import type { RootState } from "../GlobalRedux/store";
+import { useSelector, useDispatch } from "react-redux";
+import {
+  add,
+  remove,
+} from "../GlobalRedux/features/keyFeatures/keyFeaturesSlice";
+
 export default function KeyFeaturesModal({
   keyFeatures,
   onClose,
   onAdd,
   onDelete,
 }: any) {
-  const [keyFeature, setKeyFeature] = useState<string | undefined>();
+  const [keyFeature, setKeyFeature] = useState<string>("");
 
-  function handleClick() {
-    onAdd(keyFeature);
+  // using Redux --------------------------------
+  const keyFeaturesList = useSelector(
+    (state: RootState) => state.keyFeatures.value
+  );
+  const dispatch = useDispatch();
+  //---------------------------------------------
+
+  function handleAdd() {
+    dispatch(add(keyFeature));
     setKeyFeature("");
   }
 
@@ -43,12 +59,12 @@ export default function KeyFeaturesModal({
             value={keyFeature}
             onChange={(e) => setKeyFeature(e.target.value)}
           />
-          <Button variant="outlined" onClick={handleClick}>
+          <Button variant="outlined" onClick={handleAdd}>
             Add
           </Button>
         </Stack>
         <List>
-          {keyFeatures.map((kf: string, i: number) => (
+          {keyFeaturesList.map((kf: string, i: number) => (
             <ListItem key={`${kf}-${i}`}>
               <Stack
                 direction="row"
@@ -56,7 +72,7 @@ export default function KeyFeaturesModal({
                 alignItems="center"
               >
                 <Typography>{kf}</Typography>
-                <Button onClick={() => onDelete(kf)}>
+                <Button onClick={() => dispatch(remove(kf))}>
                   <RemoveCircleRoundedIcon />
                 </Button>
               </Stack>

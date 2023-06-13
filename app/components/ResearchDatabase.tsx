@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import DataTable from "../table/components/DataTable";
+import DataTable from "./DataTable";
 import Header from "./Header";
 import { Stack } from "@mui/material";
 import KeyFeaturesPortal from "./KeyFeaturesPortal";
@@ -35,7 +35,6 @@ export interface DatabaseItem {
 }
 
 export default function ResearchDatabase({ database }: any) {
-  // const { keyFeaturesList, researchData } = resData;
   const [keyFeatures, setKeyFeatures] = useState<
     ResearchDatabaseData["keyFeaturesList"]
   >([]);
