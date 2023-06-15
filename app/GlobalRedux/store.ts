@@ -1,6 +1,6 @@
 "use client";
 
-import { AnyAction, configureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import keyFeaturesReducer from "./features/keyFeatures/keyFeaturesSlice";
 
 export const store = configureStore({
