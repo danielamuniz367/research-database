@@ -3,9 +3,6 @@ import { createPortal } from "react-dom";
 import KeyFeaturesModal from "./KeyFeaturesModal";
 import { useState } from "react";
 
-export interface KeyFeaturesPortalProps {
-  keyFeatures: string[];
-}
 export default function KeyFeaturesPortal() {
   const [showModal, setShowModal] = useState(false);
 

@@ -7,34 +7,7 @@ import { useEffect, useState } from "react";
 import fuzzySearch from "../utils/fuzzySearch";
 import { useSelector } from "react-redux";
 import { RootState } from "../GlobalRedux/store";
-
-export interface KeyFeatureResult {
-  item: string | undefined;
-  refIndex: number;
-  score: number;
-}
-
-export interface KeyFeature {
-  name: string;
-  results: KeyFeatureResult[] | undefined;
-}
-
-export interface ResearchData {
-  id: string;
-  file_name: string;
-  keyFeatures: KeyFeature[];
-}
-export interface ResearchDatabaseData {
-  keyFeaturesList: string[];
-  researchData: ResearchData[];
-}
-
-export interface DatabaseItem {
-  id: string;
-  name: string;
-  type: string;
-  text: string;
-}
+import { ResearchDatabaseData } from "../sharedTypes";
 
 export default function ResearchDatabase({ database }: any) {
   const [tableData, setTableData] = useState<
@@ -75,10 +48,7 @@ export default function ResearchDatabase({ database }: any) {
     <Box p="5rem">
       <Stack direction="row" gap="1rem" alignItems="center" p={1}>
         <Header variant="h4" title="Research Table" />
-        <KeyFeaturesPortal
-        // onAdd={handleAddKeyFeature}
-        // onDelete={handleDeleteKeyFeature}
-        />
+        <KeyFeaturesPortal />
       </Stack>
       <DataTable keyFeaturesList={keyFeatures} researchData={tableData} />
     </Box>
