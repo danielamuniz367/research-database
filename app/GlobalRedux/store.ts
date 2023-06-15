@@ -6,7 +6,6 @@ import keyFeaturesReducer from "./features/keyFeatures/keyFeaturesSlice";
 export const store = configureStore({
   reducer: {
     keyFeatures: keyFeaturesReducer,
-    // researchData: researchDataReducer,
   },
 });
 
@@ -14,7 +13,3 @@ export const store = configureStore({
 export type RootState = ReturnType<typeof store.getState>;
 // Inferred type: {keyFeaturesList: keyFeaturesListState, researchData: researchDataState}
 export type AppDispatch = typeof store.dispatch;
-
-function researchDataReducer(state: unknown, action: AnyAction): unknown {
-  throw new Error("Function not implemented.");
-}

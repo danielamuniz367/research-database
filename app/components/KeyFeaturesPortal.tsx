@@ -5,14 +5,8 @@ import { useState } from "react";
 
 export interface KeyFeaturesPortalProps {
   keyFeatures: string[];
-  onAdd: (key_feature: string) => void;
-  onDelete: (key_feature: string) => void;
 }
-export default function KeyFeaturesPortal({
-  keyFeatures,
-  onAdd,
-  onDelete,
-}: KeyFeaturesPortalProps) {
+export default function KeyFeaturesPortal() {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -22,12 +16,7 @@ export default function KeyFeaturesPortal({
       </Button>
       {showModal &&
         createPortal(
-          <KeyFeaturesModal
-            keyFeatures={keyFeatures}
-            onClose={() => setShowModal(false)}
-            onAdd={onAdd}
-            onDelete={onDelete}
-          />,
+          <KeyFeaturesModal onClose={() => setShowModal(false)} />,
           document.body
         )}
     </>

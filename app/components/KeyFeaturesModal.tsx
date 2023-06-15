@@ -22,12 +22,7 @@ import {
   remove,
 } from "../GlobalRedux/features/keyFeatures/keyFeaturesSlice";
 
-export default function KeyFeaturesModal({
-  keyFeatures,
-  onClose,
-  onAdd,
-  onDelete,
-}: any) {
+export default function KeyFeaturesModal({ onClose }: any) {
   const [keyFeature, setKeyFeature] = useState<string>("");
 
   // using Redux --------------------------------
