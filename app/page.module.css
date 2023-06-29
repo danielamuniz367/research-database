@@ -24,7 +24,7 @@
   position: absolute;
   top: 96px;
   left: calc(40%);
-  min-height: 400px;
+  min-height: 500px;
   width: 400px;
   z-index: 2;
 }

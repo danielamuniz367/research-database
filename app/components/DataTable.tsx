@@ -5,7 +5,7 @@ import {
   KeyFeatureResult,
   ResearchData,
   ResearchDatabaseData,
-} from "@/app/components/ResearchDatabase";
+} from "../sharedTypes";
 
 export default function DataTable({
   keyFeaturesList,
